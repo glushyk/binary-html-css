@@ -150,6 +150,10 @@ aside {
     position: absolute;
     top: 12px;
     right:-20px;
+    -moz-transform: rotate(46deg); /* Для Firefox */
+    -ms-transform: rotate(46deg); /* Для IE */
+    -webkit-transform: rotate(46deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(46deg); /* Для Opera */
     transform:rotate(46deg);
 }
 
